@@ -103,12 +103,13 @@ int main()
 			cout << "podaj c:";
 			cin >> c;
 			if(a==0){
-				cout << "jest to funkcja kwadratowa z mijescem zerowym x="<<f_liniowa_0(b,c);
+				cout << "jest to funkcja kwadratowa z mijescem zerowym x= "<<f_liniowa_0(b,c);
 				 
 			}
 			
 					///////////		y= a(x-p)2+q 	//////////
 		else if(x==4){
+			cout <<"juz wkrótce ";
 	 
 			}
 			
