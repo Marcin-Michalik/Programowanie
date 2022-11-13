@@ -54,6 +54,7 @@ int main()
 			cout <<"( miejsce zerowe ax+b ) -  wcisnij 1"<<endl;
 			cout <<"( miejsce zerowe Ax+By+C=0 ) -  wcisnij 2"<<endl;
 			cout <<"( miejsce zerowe postaci ax2 + bx + c ) -  wcisnij 3"<<endl;
+			cout << "( funkcji w postaci kanonicznej y= a(x-p)2+q ) - wcisnij 4"<<emdl; 
 			cin>>x;
 		}while( x>3 || x<1 );
 		
@@ -105,6 +106,12 @@ int main()
 				cout << "jest to funkcja kwadratowa z mijescem zerowym x="<<f_liniowa_0(b,c);
 				 
 			}
+			
+					///////////		y= a(x-p)2+q 	//////////
+		else if(x==4){
+	 
+			}
+			
 			else{
 				f_kwadratowa(a,b,c);
 			}	
