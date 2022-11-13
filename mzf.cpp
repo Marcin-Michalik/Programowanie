@@ -36,6 +36,7 @@ else if(delta>0){
 
 
 
+
 }
 
 
@@ -47,7 +48,7 @@ int main()
 	float a, b, c;
 	cout <<"miejsce zerowe ax+b - wcisnij 1"<<endl;
 	cout <<"miejsce zerowe Ax+By+C=0 - wcisnij 2"<<endl;
-	cout <<"miejsce zerowe postaci ax2 + bx + c gdzie a rozne od 0  - wcisnij 3"<<endl;
+	cout <<"miejsce zerowe postaci ax2 + bx + c - wcisnij 3"<<endl;
 	cin>>x;
 	
 	
@@ -97,8 +98,14 @@ int main()
 		cin >> b;
 		cout << "podaj c:";
 		cin >> c;
+		if(a==0){
+			cout << "jest to funkcja kwadratowa z mijescem zerowym x="<<f_liniowa_0(b,c);
+			 
+		}
+		else{
+			f_kwadratowa(a,b,c);
+		}
 		
-		f_kwadratowa(a,b,c);
 	}
 	
 	
